@@ -13,3 +13,64 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+.header {
+    padding: 8vh;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    margin-left: 1vh;
+}
+
+nav a {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: black;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.intro {
+    padding: 8vh;
+}
+
+.intro > .intro-image > img {
+    width: 80%;
+}
+
+.testimony {
+    background-color: var(--neutral-grayish-blue);
+    padding: 8vh;
+}
+
+.testimony > .testimony-image > img {
+    width: 80%;
+}
+
+.form {
+    background-color: var(--primary-desatured-blue);
+    padding: 8vh;
+    color: white;
+}
+
+.grid-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: var(--primary-dark-blue);
+    color: white;
+    padding: 8vh;
+}
+
+footer a {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: white;
+}
