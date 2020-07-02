@@ -21,7 +21,7 @@ Mobile version, where I'm mostly improving my skills on responsive websites.
 
 ## 🛠 Deploy
 
-This simple website is being deployed using [Vercel](https://vercel.com), on this [link]().
+This simple website is being deployed using [Vercel](https://vercel.com), on this [link](https://fylo-landing-page-with-two-column-layout-self.vercel.app).
 
 ## 📄 License
 
