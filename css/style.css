@@ -14,6 +14,46 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+    font-size: 2.2rem;
+    line-height: 8vh;
+    color: var(--primary-dark-blue);
+    margin-bottom: 1vh;
+    margin-right: 8vh;
+
+}
+
+p {
+    margin-bottom: 1.5vh;
+    margin-right: 20vh;
+}
+
+h1, button {
+    font-family: 'Raleway', sans-serif;
+}
+
+input {
+    width: 45%;
+    margin-right: 20px;
+    padding: 1vh;
+    border: 1px solid var(--neutral-light-gray);
+    border-radius: 2px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    width: 24vh;
+    padding: 1.4vh;
+    background-color: var(--accent-bright-blue);
+    border: none;
+    color: white;
+    border-radius: 2px;
+    box-shadow: 0 0 20px 0px rgb(0, 0, 0, 0.2);
+}
+
 .header {
     padding: 8vh;
 }
@@ -42,6 +82,10 @@ nav a {
     padding: 8vh;
 }
 
+.intro > .intro-image {
+    text-align: center;
+}
+
 .intro > .intro-image > img {
     width: 80%;
 }
@@ -49,6 +93,43 @@ nav a {
 .testimony {
     background-color: var(--neutral-grayish-blue);
     padding: 8vh;
+}
+
+.testimony-text > a {
+    color: var(--accent-moderate-cyan);
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 1px solid var(--accent-moderate-cyan);
+
+}
+
+.testimony-box {
+    margin: 6vh 0vh;
+    padding: 2vh;
+    width: 56vh;
+    box-shadow: 0 0 20px 0px rgb(0, 0, 0, 0.2);
+    border-radius: 4px;
+    background-color: white;
+    font-size: .8rem;
+    letter-spacing: 0.1vh;
+}
+
+.testimony-box > p {
+    margin-right: 0;
+}
+
+.avatar > img {
+    border-radius: 50%;
+    width: 15%;
+    position: relative;
+}
+
+.avatar > p {
+    position: relative;
+}
+
+.testimony > .testimony-image {
+    text-align: center;
 }
 
 .testimony > .testimony-image > img {
@@ -61,12 +142,33 @@ nav a {
     color: white;
 }
 
+.form-text > h1 {
+    color: white;
+}
+
+#end-form > input {
+    width: 70%;
+    padding: 2vh;
+    margin-bottom: 2vh;
+    border-radius: 3px;
+}
+
 .grid-footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: var(--primary-dark-blue);
     color: white;
     padding: 8vh;
+}
+
+.grid-footer ul {
+    list-style-type: none;
+    text-align: middle;
+    font-size: .8rem;
+}
+
+.grid-footer li {
+    margin-bottom: 2vh;
 }
 
 footer a {
