@@ -95,7 +95,7 @@ nav a {
     padding: 8vh;
 }
 
-.testimony-text > a {
+.center-a > a {
     color: var(--accent-moderate-cyan);
     text-decoration: none;
     padding-bottom: 2px;
@@ -161,6 +161,19 @@ nav a {
     padding: 8vh;
 }
 
+.grid-footer > .logo > img {
+    margin-bottom: 2vh;
+}
+
+.grid-footer > .logo > p {
+    font-size: .8rem;
+} 
+
+.logo > p > img {
+    width: 2vh;
+    margin-right: 1vh;
+}
+
 .grid-footer ul {
     list-style-type: none;
     text-align: middle;
@@ -175,4 +188,102 @@ footer a {
     text-decoration: none;
     text-decoration-line: none;
     color: white;
+}
+
+@media only screen and (max-width: 700px) {
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 1vh;
+        padding: 1vh;
+        margin-right: 0;
+        line-height: 1;
+    }
+    
+    p {
+        margin: 1vh;
+    }
+    
+    input, button {
+        width: 100%;
+        margin-bottom: 2vh;
+    }
+    
+    .header {
+        padding: 2vh;
+    }
+
+    nav ul {
+        margin-top: 1vh;
+    }
+    
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-areas: "header" "intro-image" "intro" "testimony-image" "testimony";
+
+    }
+
+    .header > .logo {
+        grid-area: header;
+    }
+
+    .header > nav {
+        grid-area: header;
+    }
+
+    .intro {
+        padding: 2vh;
+        text-align: center;
+    }
+    
+    .intro-text {
+        grid-area: intro;
+    }
+    
+    .intro-image {
+        grid-area: intro-image;
+    }
+
+    .testimony {
+        padding: 2vh;
+    }
+    
+    .testimony-text {
+        grid-area: testimony;
+    }
+
+    .testimony-text > h1 {
+        padding: 2vh;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .center-a {
+        text-align: center;
+        margin: 4vh 0vh 6vh 0vh;
+    }
+
+    .testimony-box {
+        margin: 0vh 6vh 8vh 6vh;
+        width: 42vh;
+    }
+
+    .testimony-image {
+        grid-area: testimony-image;
+    }
+
+    .form {
+        padding: 4vh;
+        text-align: center;
+    }
+
+    #end-form > input {
+        margin-top: 2vh;
+        width: 100%;
+    }
+
+    .grid-footer {
+        row-gap: 4vh;
+        grid-template-columns: 1fr;
+    }
+    
 }
